@@ -1,0 +1,166 @@
+Try out Subcontext technique (Enter 'quit' to exit):
+
+
+Enter your msg: hi
+Hello! How can I assist you today?
+
+
+Enter your msg: what can you do? 2 sentence reply only
+I can provide information, answer questions, and offer assistance on a wide range of topics. My goal is to help you with any queries or tasks you have.
+
+
+Enter your msg: nice
+Debug:['1. hi', '3. what can you do? 2 sentence reply only', '5. nice']
+
+!!!1. hi
+3. what can you do? 2 sentence reply only, nice
+chatgpt result:[3]
+Parsed array: [3]
+
+
+Y is 3---<class 'int'>, [3]
+
+
+Look at array:[{'role': 'system', 'content': 'You are a helpful chat assistant'}, {'role': 'user', 'content': 'what can you do? 2 sentence reply only'}, {'role': 'assistant', 'content': 'I can provide information, answer questions, and offer assistance on a wide range of topics. My goal is to help you with any queries or tasks you have.'}, {'role': 'user', 'content': 'nice'}]
+
+
+Thank you! If you have any questions or need assistance, feel free to ask.
+
+
+Enter your msg: tell me about thermodynamics in short
+Debug:['1. hi', '3. what can you do? 2 sentence reply only', '5. nice', '7. tell me about thermodynamics in short']
+
+!!!1. hi
+3. what can you do? 2 sentence reply only
+5. nice, tell me about thermodynamics in short
+chatgpt result:[3]
+Parsed array: [3]
+
+
+Y is 3---<class 'int'>, [3]
+
+
+Look at array:[{'role': 'system', 'content': 'You are a helpful chat assistant'}, {'role': 'user', 'content': 'what can you do? 2 sentence reply only'}, {'role': 'assistant', 'content': 'I can provide information, answer questions, and offer assistance on a wide range of topics. My goal is to help you with any queries or tasks you have.'}, {'role': 'user', 'content': 'tell me about thermodynamics in short'}]
+
+
+Thermodynamics is the branch of physics that deals with the relationships between heat and other forms of energy. It describes how thermal energy is converted to and from other forms of energy and how it affects matter, primarily through the laws of thermodynamics.
+
+
+Enter your msg: thermal energy?
+Debug:['1. hi', '3. what can you do? 2 sentence reply only', '5. nice', '7. tell me about thermodynamics in short', '9. thermal energy?']
+
+!!!1. hi
+3. what can you do? 2 sentence reply only
+5. nice
+7. tell me about thermodynamics in short, thermal energy?
+chatgpt result:[7]
+Parsed array: [7]
+
+
+Y is 7---<class 'int'>, [7]
+
+
+Look at array:[{'role': 'system', 'content': 'You are a helpful chat assistant'}, {'role': 'user', 'content': 'tell me about thermodynamics in short'}, {'role': 'assistant', 'content': 'Thermodynamics is the branch of physics that deals with the relationships between heat and other forms of energy. It describes how thermal energy is converted to and from other forms of energy and how it affects matter, primarily through the laws of thermodynamics.'}, {'role': 'user', 'content': 'thermal energy?'}]
+
+
+Thermal energy is the internal energy present in a system due to its temperature. It's a form of kinetic energy because it arises from the motion of particles within an object. The faster these particles move, the higher the temperature and thus the greater the thermal energy of the system. Thermal energy can be transferred between objects or systems by processes such as conduction, convection, and radiation, leading to changes in temperature and state of matter.
+
+
+Enter your msg: oh, good to know thanks
+Debug:['1. hi', '3. what can you do? 2 sentence reply only', '5. nice', '7. tell me about thermodynamics in short', '9. thermal energy?', '11. oh, good to know thanks']
+
+!!!1. hi
+3. what can you do? 2 sentence reply only
+5. nice
+7. tell me about thermodynamics in short
+9. thermal energy?, oh, good to know thanks
+chatgpt result:[7, 9]
+Parsed array: [7, 9]
+
+
+Y is 7---<class 'int'>, [7, 9]
+Y is 9---<class 'int'>, [7, 9]
+
+
+Look at array:[{'role': 'system', 'content': 'You are a helpful chat assistant'}, {'role': 'user', 'content': 'tell me about thermodynamics in short'}, {'role': 'assistant', 'content': 'Thermodynamics is the branch of physics that deals with the relationships between heat and other forms of energy. It describes how thermal energy is converted to and from other forms of energy and how it affects matter, primarily through the laws of thermodynamics.'}, {'role': 'user', 'content': 'thermal energy?'}, {'role': 'assistant', 'content': "Thermal energy is the internal energy present in a system due to its temperature. It's a form of kinetic energy because it arises from the motion of particles within an object. The faster these particles move, the higher the temperature and thus the greater the thermal energy of the system. Thermal energy can be transferred between objects or systems by processes such as conduction, convection, and radiation, leading to changes in temperature and state of matter."}, {'role': 'user', 'content': 'oh, good to know thanks'}]
+
+
+You're welcome! If you have any more questions or need further explanation on any topic, feel free to ask.
+
+
+Enter your msg: tell me about photosynthesis in a line
+Debug:['1. hi', '3. what can you do? 2 sentence reply only', '5. nice', '7. tell me about thermodynamics in short', '9. thermal energy?', '11. oh, good to know thanks', '13. tell me about photosynthesis in a line']
+
+!!!1. hi
+3. what can you do? 2 sentence reply only
+5. nice
+7. tell me about thermodynamics in short
+9. thermal energy?
+11. oh, good to know thanks, tell me about photosynthesis in a line
+chatgpt result:[3]
+Parsed array: [3]
+
+
+Y is 3---<class 'int'>, [3]
+
+
+Look at array:[{'role': 'system', 'content': 'You are a helpful chat assistant'}, {'role': 'user', 'content': 'what can you do? 2 sentence reply only'}, {'role': 'assistant', 'content': 'I can provide information, answer questions, and offer assistance on a wide range of topics. My goal is to help you with any queries or tasks you have.'}, {'role': 'user', 'content': 'tell me about photosynthesis in a line'}]
+
+
+Photosynthesis is the process by which green plants and some other organisms use sunlight to synthesize nutrients from carbon dioxide and water, generating oxygen as a byproduct.
+
+
+Enter your msg: now, create an analogy combining thermal energy and photosynthesis for my better understanding
+Debug:['1. hi', '3. what can you do? 2 sentence reply only', '5. nice', '7. tell me about thermodynamics in short', '9. thermal energy?', '11. oh, good to know thanks', '13. tell me about photosynthesis in a line', '15. now, create an analogy combining thermal energy and photosynthesis for my better understanding']
+
+!!!1. hi
+3. what can you do? 2 sentence reply only
+5. nice
+7. tell me about thermodynamics in short
+9. thermal energy?
+11. oh, good to know thanks
+13. tell me about photosynthesis in a line, now, create an analogy combining thermal energy and photosynthesis for my better understanding
+chatgpt result:[7, 9, 13]
+Parsed array: [7, 9, 13]
+
+
+Y is 7---<class 'int'>, [7, 9, 13]
+Y is 9---<class 'int'>, [7, 9, 13]
+Y is 13---<class 'int'>, [7, 9, 13]
+
+
+Look at array:[{'role': 'system', 'content': 'You are a helpful chat assistant'}, {'role': 'user', 'content': 'tell me about thermodynamics in short'}, {'role': 'assistant', 'content': 'Thermodynamics is the branch of physics that deals with the relationships between heat and other forms of energy. It describes how thermal energy is converted to and from other forms of energy and how it affects matter, primarily through the laws of thermodynamics.'}, {'role': 'user', 'content': 'thermal energy?'}, {'role': 'assistant', 'content': "Thermal energy is the internal energy present in a system due to its temperature. It's a form of kinetic energy because it arises from the motion of particles within an object. The faster these particles move, the higher the temperature and thus the greater the thermal energy of the system. Thermal energy can be transferred between objects or systems by processes such as conduction, convection, and radiation, leading to changes in temperature and state of matter."}, {'role': 'user', 'content': 'tell me about photosynthesis in a line'}, {'role': 'assistant', 'content': 'Photosynthesis is the process by which green plants and some other organisms use sunlight to synthesize nutrients from carbon dioxide and water, generating oxygen as a byproduct.'}, {'role': 'user', 'content': 'now, create an analogy combining thermal energy and photosynthesis for my better understanding'}]
+
+
+Imagine a bustling city where the sun's rays are like the city's power grid, providing the essential energy needed for the city to function. In this city, the buildings are like leaves in a plant, equipped with solar panels (chlorophyll) that capture sunlight. The solar energy captured is then used to power a series of processes (photosynthesis) that transform water and carbon dioxide delivered through the city's infrastructure (roots and stems) into oxygen and glucose (energy-rich food), which fuels the city's inhabitants and activities. Just as thermal energy is the movement and vibration of particles within a substance, the city thrives on the energy provided by the sun, converting it into forms that sustain life and growth within the urban ecosystem.
+
+
+Enter your msg: ok thanks
+Debug:['1. hi', '3. what can you do? 2 sentence reply only', '5. nice', '7. tell me about thermodynamics in short', '9. thermal energy?', '11. oh, good to know thanks', '13. tell me about photosynthesis in a line', '15. now, create an analogy combining thermal energy and photosynthesis for my better understanding', '17. ok thanks']
+
+!!!1. hi
+3. what can you do? 2 sentence reply only
+5. nice
+7. tell me about thermodynamics in short
+9. thermal energy?
+11. oh, good to know thanks
+13. tell me about photosynthesis in a line
+15. now, create an analogy combining thermal energy and photosynthesis for my better understanding, ok thanks
+chatgpt result:[7, 9, 13, 15]
+Parsed array: [7, 9, 13, 15]
+
+
+Y is 7---<class 'int'>, [7, 9, 13, 15]
+Y is 9---<class 'int'>, [7, 9, 13, 15]
+Y is 13---<class 'int'>, [7, 9, 13, 15]
+Y is 15---<class 'int'>, [7, 9, 13, 15]
+
+
+Look at array:[{'role': 'system', 'content': 'You are a helpful chat assistant'}, {'role': 'user', 'content': 'tell me about thermodynamics in short'}, {'role': 'assistant', 'content': 'Thermodynamics is the branch of physics that deals with the relationships between heat and other forms of energy. It describes how thermal energy is converted to and from other forms of energy and how it affects matter, primarily through the laws of thermodynamics.'}, {'role': 'user', 'content': 'thermal energy?'}, {'role': 'assistant', 'content': "Thermal energy is the internal energy present in a system due to its temperature. It's a form of kinetic energy because it arises from the motion of particles within an object. The faster these particles move, the higher the temperature and thus the greater the thermal energy of the system. Thermal energy can be transferred between objects or systems by processes such as conduction, convection, and radiation, leading to changes in temperature and state of matter."}, {'role': 'user', 'content': 'tell me about photosynthesis in a line'}, {'role': 'assistant', 'content': 'Photosynthesis is the process by which green plants and some other organisms use sunlight to synthesize nutrients from carbon dioxide and water, generating oxygen as a byproduct.'}, {'role': 'user', 'content': 'now, create an analogy combining thermal energy and photosynthesis for my better understanding'}, {'role': 'assistant', 'content': "Imagine a bustling city where the sun's rays are like the city's power grid, providing the essential energy needed for the city to function. In this city, the buildings are like leaves in a plant, equipped with solar panels (chlorophyll) that capture sunlight. The solar energy captured is then used to power a series of processes (photosynthesis) that transform water and carbon dioxide delivered through the city's infrastructure (roots and stems) into oxygen and glucose (energy-rich food), which fuels the city's inhabitants and activities. Just as thermal energy is the movement and vibration of particles within a substance, the city thrives on the energy provided by the sun, converting it into forms that sustain life and growth within the urban ecosystem."}, {'role': 'user', 'content': 'ok thanks'}]
+
+
+You're welcome! If you have any more questions or need further explanation, feel free to ask.
+
+
+Enter your msg: quit
+-- Program has ended --
