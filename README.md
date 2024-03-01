@@ -10,3 +10,8 @@ This can be used to select only a subset of the current context for the next use
 Also a much better approach than naive rolling window-based trimming of the context window.
 
 **Code** in `subcontext.py` file and **sample output/demo** in `sample_output.txt` file
+
+---
+
+**Algorithm**:
+![AlgoPic](https://github.com/Sharan-Babu/UserSubContext/blob/main/usersubcontext_flow.JPG)
