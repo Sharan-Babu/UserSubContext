@@ -1,7 +1,5 @@
 # UserSubContext
 
-**[Work In Progress]**
-
 **Aim**: 
 A simple technique that uses _'current user message/query'_ to dynamically select only a subset of the current context window for the next turn based on previous user messages.
 
